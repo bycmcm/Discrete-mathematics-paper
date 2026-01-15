@@ -314,7 +314,7 @@
   }
 \clist_const:Nn \c__bithesis_bachelor_thesis_headline_clist
   {
-    本科生论文,
+    研究报告,
     本科生论文外文翻译,
     Beijing\nobreak{~}Institute\nobreak{~}of\nobreak{~}Technology~Bachelor's~Thesis,
   }

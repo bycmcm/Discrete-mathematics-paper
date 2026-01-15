@@ -1,5 +1,5 @@
 # Undergraduate Thesis 毕业设计（论文）
-
+readme
 **请尽可能使用最新版本[^1]撰写文章，我们的代码仓库是：https://github.com/BITNP/BIThesis 。**
 
 此文件夹中包含了北京理工大学毕业设计（论文）的全部内容，有关模板的使用方法更为详细的介绍，请参考：[bithesis 使用手册][manual]。

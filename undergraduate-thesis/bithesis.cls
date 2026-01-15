@@ -261,12 +261,12 @@
 \clist_map_inline:nn
   {
     {school} {学\qquad 院} {School},
-    {major} {专\qquad 业} {Degree},
+    {major} {专业名称} {Degree},
     {course} {课程名称} {Course},
     {class} {班\qquad{}级} {Class},
-    {author} {学生姓名} {Author},
+    {author} {姓名学号} {Author},
     {student_id} {学\qquad 号} {Student~ID},
-    {supervisor} {指导教师} {Supervisor},
+    {supervisor} {任课教师} {Supervisor},
     {co_supervisor} {校外指导教师} {Co-Supervisor},
     {teacher} {任课教师} {Teacher},
     {semester} {上课学期} {Semester},
@@ -306,16 +306,16 @@
   {\__bithesis_define_label:nnn #1}
 \clist_const:Nn \c__bithesis_bachelor_thesis_header_clist
   {
-    北京理工大学本科生毕业设计（论文）,
-    北京理工大学本科生毕业设计（论文）外文翻译,
+    北京理工大学本科生论文,
+    北京理工大学本科生论文外文翻译,
     Beijing~Institute~of~Technology~Bachelor's~Thesis,
     北京理工大学硕士学位论文,
     北京理工大学博士学位论文,
   }
 \clist_const:Nn \c__bithesis_bachelor_thesis_headline_clist
   {
-    本科生毕业设计（论文）,
-    本科生毕业设计（论文）外文翻译,
+    本科生论文,
+    本科生论文外文翻译,
     Beijing\nobreak{~}Institute\nobreak{~}of\nobreak{~}Technology~Bachelor's~Thesis,
   }
 \tl_const:Nn \c__bithesis_auto_tl { BIThesis-auto-magic }

@@ -124,3 +124,132 @@
   urldate = {2013-03-26},
   keywords = {online},
 }
+%----------------------------------
+%需要用的论文汇总在下面
+
+%方向一：基于图编辑距离的动态建模
+
+%1.题目：关于图编辑距离精确计算的研究
+@article{blumenthal2020exact,
+  title={On the exact computation of the graph edit distance},
+  author={Blumenthal, David B and Gamper, Johann},
+  journal={Pattern Recognition Letters},
+  volume={134},
+  pages={46--57},
+  year={2020},
+  publisher={Elsevier}
+}
+
+%2.题目：图编辑距离的可微近似研究
+@inproceedings{wallnig2024differentiable,
+  title={A Differentiable Approximation of the Graph Edit Distance},
+  author={Wallnig, Julia and Brun, Luc and Ga{\"u}z{\`e}re, Benoit and Bougleux, S{\'e}bastien and Yger, Florian and Blumenthal, David B},
+  booktitle={Joint IAPR International Workshops on Statistical Techniques in Pattern Recognition (SPR) and Structural and Syntactic Pattern Recognition (SSPR)},
+  pages={1--10},
+  year={2024},
+  organization={Springer}
+}
+
+%3.题目：用于编辑距离的图节点匹配
+@article{moscatelli2024graph,
+  title={Graph node matching for edit distance},
+  author={Moscatelli, Aldo and Piquenot, Jason and B{\'e}rar, Maxime and H{\'e}roux, Pierre and Adam, S{\'e}bastien},
+  journal={Pattern Recognition Letters},
+  volume={184},
+  pages={14--20},
+  year={2024},
+  publisher={Elsevier}
+}
+
+%4.题目：Mata*: 将可学习的节点匹配与 A* 算法相结合，用于近似图编辑距离计算
+@inproceedings{liu2023mata,
+  title={Mata*: Combining learnable node matching with a* algorithm for approximate graph edit distance computation},
+  author={Liu, Junfeng and Zhou, Min and Ma, Shuai and Pan, Lujia},
+  booktitle={Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
+  pages={1503--1512},
+  year={2023}
+}
+
+% 5. 题目: Weisfeiler-Lehman 图核 (图同构检测的离散数学基石，定义图相似度的必读经典)
+@article{shervashidze2011weisfeiler,
+  title={Weisfeiler-lehman graph kernels},
+  author={Shervashidze, Nino and Schweitzer, Pascal and Van Leeuwen, Erik Jan and Mehlhorn, Kurt and Borgwardt, Karsten M},
+  journal={Journal of Machine Learning Research},
+  volume={12},
+  number={9},
+  pages={2539--2561},
+  year={2011}
+}
+
+% 6. 题目: 论图编辑距离与最大公共子图之间的关系 (Bunke大神经典之作，从离散数学角度证明了GED与子图匹配的等价性，支撑你的"研究内容4")
+@article{bunke1997relation,
+  title={On the relation between graph edit distance and maximum common subgraph},
+  author={Bunke, Horst},
+  journal={Pattern Recognition Letters},
+  volume={18},
+  number={8},
+  pages={689--694},
+  year={1997},
+  publisher={Elsevier}
+}
+
+% 7. 题目: 通过二部图匹配进行近似图编辑距离计算 (Riesen & Bunke提出的经典Hausdorff启发式算法，非神经网络GED计算的标准Baseline)
+@article{riesen2009approximate,
+  title={Approximate graph edit distance computation by means of bipartite graph matching},
+  author={Riesen, Kaspar and Bunke, Horst},
+  journal={Image and Vision Computing},
+  volume={27},
+  number={7},
+  pages={950--959},
+  year={2009},
+  publisher={Elsevier}
+}
+
+% 8. 题目: 用于匹配大图的(子)图同构算法 (大名鼎鼎的VF2算法，解决离散子图匹配问题的工业级标准)
+@article{cordella2004sub,
+  title={A (sub) graph isomorphism algorithm for matching large graphs},
+  author={Cordella, Luigi P and Foggia, Pasquale and Sansone, Carlo and Vento, Mario},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={26},
+  number={10},
+  pages={1367--1372},
+  year={2004},
+  publisher={IEEE}
+}
+
+% 9. 题目: 用于学习图结构对象相似性的图匹配网络 (DeepMind出品，将离散的图匹配问题转化为可微分的GNN问题，比SimGNN更偏重匹配理论)
+@inproceedings{li2019graph,
+  title={Graph Matching Networks for Learning the Similarity of Graph Structured Objects},
+  author={Li, Yujia and Gu, Chenjie and Dullien, Thomas and Vinyals, Oriol and Kohli, Pushmeet},
+  booktitle={International Conference on Machine Learning},
+  pages={3835--3845},
+  year={2019},
+  organization={PMLR}
+}
+
+% 10. 题目: 图卷积神经网络的稳定性与泛化 (严格的数学理论推导，证明了图算子在度量空间扰动下的Lipschitz连续性，完美支撑你的"研究内容2")
+@inproceedings{verma2019stability,
+  title={Stability and generalization of graph convolutional neural networks},
+  author={Verma, Saurabh and Zhang, Zhi-Li},
+  booktitle={Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+  pages={1539--1548},
+  year={2019}
+}
+
+% 11. 题目: 用于图匹配和节点嵌入的 Gromov-Wasserstein 学习 (利用最优传输理论定义图之间的度量，比GED更具有几何性质的数学工具)
+@inproceedings{xu2019gromov,
+  title={Gromov-Wasserstein Learning for Graph Matching and Node Embedding},
+  author={Xu, Hongteng and Luo, Dixin and Zha, Hongyuan and Duke, Lawrence Carin},
+  booktitle={International Conference on Machine Learning},
+  pages={6932--6941},
+  year={2019},
+  organization={PMLR}
+}
+
+% 12. 题目: 图神经网络有多强大？ (GIN网络，从WL测试的角度给出了GNN辨识图结构能力的理论上界)
+@inproceedings{xu2019powerful,
+  title={How Powerful Are Graph Neural Networks?},
+  author={Xu, Keyulu and Hu, Weihua and Leskovec, Jure and Jegelka, Stefanie},
+  booktitle={International Conference on Learning Representations},
+  year={2019}
+}

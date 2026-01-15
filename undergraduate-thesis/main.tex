@@ -27,14 +27,13 @@
     % 想要删除某项封面信息，直接删除该项即可。
     % 想要让某项封面信息留空（但是保留下划线），请传入空白符组成的字符串，如"{~}"。
     % 如需要换行，则用 “\\” 符号分割。
-    title = 北京理工大学本科生毕业设计（论文）题目,
+    title = 北京理工大学本科生论文题目,
     titleEn = {The Subject of Undergraduate Graduation Project (Thesis) of Beijing Institute of Technology},
     school = 计算机学院,
-    major = 计算机科学与技术,
-    class = 0561xxxx,
-    author = 惠计算,
-    studentId = 11xxxxxxxx,
-    supervisor = 张哈希,
+    major = 人工智能,
+    class = 07182401,
+    author = 王浩恩 1120242340\\庞项祯 1120241349\\杨佳车 1120240660,
+    supervisor = 张春霞,
     keywords = {北京理工大学；本科生；毕业设计（论文）——请在“main.tex”开头设置},
     keywordsEn = {BIT; Undergraduate; Graduation Project (Thesis)},
     % 如果你的毕设为校外毕设，请将下面这一行语句解除注释（删除第一个百分号字符）并填写你的校外毕设导师名字
@@ -55,7 +54,32 @@
     tabularRowSeparation = 1.25,
   },
 }
+\usepackage{titlesec}
 
+% 重新定义章节编号格式
+\renewcommand{\thechapter}{\arabic{chapter}}  % 将章节号改为阿拉伯数字
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+
+% 设置章节标题格式（保持原来的对齐方式，只修改编号格式）
+\titleformat{\chapter}
+  {\normalfont\heiti\zihao{3}\bfseries\raggedright}
+  {\thechapter}  % 使用修改后的章节号
+  {1em}
+  {}
+
+\titleformat{\section}
+  {\normalfont\heiti\zihao{4}\bfseries\raggedright}
+  {\thesection}
+  {1em}
+  {}
+
+\titleformat{\subsection}
+  {\normalfont\heiti\zihao{-4}\bfseries\raggedright}
+  {\thesubsection}
+  {1em}
+  {}
+\titlespacing*{\chapter}{0pt}{0pt}{20pt} 
 % 这份模板提供了代码块示例，采用 listings 宏包及其预定义样式。
 % 使用代码块时，也可选用自己的喜欢的其他宏包，如 minted：https://bithesis.bitnp.net/faq/minted.html
 % 如果不需要，直接删除即可。

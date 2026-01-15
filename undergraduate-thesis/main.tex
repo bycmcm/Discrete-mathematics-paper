@@ -54,7 +54,32 @@
     tabularRowSeparation = 1.25,
   },
 }
+\usepackage{titlesec}
 
+% 重新定义章节编号格式
+\renewcommand{\thechapter}{\arabic{chapter}}  % 将章节号改为阿拉伯数字
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+
+% 设置章节标题格式（保持原来的对齐方式，只修改编号格式）
+\titleformat{\chapter}
+  {\normalfont\heiti\zihao{3}\bfseries\raggedright}
+  {\thechapter}  % 使用修改后的章节号
+  {1em}
+  {}
+
+\titleformat{\section}
+  {\normalfont\heiti\zihao{4}\bfseries\raggedright}
+  {\thesection}
+  {1em}
+  {}
+
+\titleformat{\subsection}
+  {\normalfont\heiti\zihao{-4}\bfseries\raggedright}
+  {\thesubsection}
+  {1em}
+  {}
+\titlespacing*{\chapter}{0pt}{0pt}{20pt} 
 % 这份模板提供了代码块示例，采用 listings 宏包及其预定义样式。
 % 使用代码块时，也可选用自己的喜欢的其他宏包，如 minted：https://bithesis.bitnp.net/faq/minted.html
 % 如果不需要，直接删除即可。

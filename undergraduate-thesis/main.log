@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.8.30)  16 JAN 2026 23:27
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.8.30)  17 JAN 2026 11:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1406,7 +1406,9 @@ File: images/header.pdf Graphic file (type pdf)
 
 ]
 
-[2]) (./main.toc
+[2]
+
+[3]) (./main.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1416,7 +1418,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-[3
+[4
 
 ])
 \tf@toc=\write6
@@ -1424,19 +1426,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-[4] (./chapters/1_chapter1.tex
+[5] (./chapters/1_chapter1.tex
 第1章
-
-LaTeX Warning: Citation 'yuFeiJiZongTiDuoXueKeSheJiYouHuaDeXianZhuangYuFaZhanFangXiang2008' on page 1 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'Hajela2012Application' on page 1 undefined on input line 12.
-
-
-Overfull \hbox (52.43791pt too wide) in paragraph at lines 12--13
-[]\TU/SimSun(1)/m/n/12.045 正 文… …| []
- []
-
 
 
 [1
@@ -1478,30 +1469,46 @@ Overfull \hbox (52.43791pt too wide) in paragraph at lines 12--13
 [11]
 第5章
 
+Overfull \hbox (26.24394pt too wide) in paragraph at lines 263--265
+[]\TU/SimSun(1)/m/n/12.045 计 算 两 个 顶 点 度 数 的 绝 对 差 乘 以 单 位 边 操 作 代 价 作 为 简 单 估 计：| $\OMS/cmsy/m/n/12.045 j []\OT1/cmr/m/n/12.045 (\OML/cmm/m/it/12.045 u[]\OT1/cmr/m/n/12.045 ) \OMS/cmsy/m/n/12.045 ^^@
+ []
+
+
 
 [12
 
 ]
+Overfull \hbox (17.24455pt too wide) in paragraph at lines 279--280
+[]\OT1/cmr/m/n/12.045 ^^H(\OML/cmm/m/it/12.045 u[]\OT1/cmr/m/n/12.045 )\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 ^^H(\OML/cmm/m/it/12.045 u[]\OT1/cmr/m/n/12.045 )[] \OMS/cmsy/m/n/12.045 2 \OML/cmm/m/it/12.045 E[]$\TU/SimSun(1)/m/n/12.045 ，|  则 考 虑 边 替 换  |（若 边 标 签 不 同，|  代 价 为 $\OML/cmm/m/it/12.045 C[] []l[]\OT1/cmr/m/n/12.045 (\OML/cmm/m/it/12.045 e[]\OT1/cmr/m/n/12.045 )\OML/cmm/m/it/12.045 ; l[]\OT1/cmr/m/n/12.045 (\OML/cmm/m/it/12.045 e[]\OT1/cmr/m/n/12.045 )[]$\TU/SimSun(1)/m/n/12.045 ，|
+ []
+
+
+
+[13]
+
+[14]
 第6章
-) (./chapters/2_chapter2.tex) (./misc/2_conclusion.tex) (./misc/3_reference.tex
 
-[13
 
-]
+[15
+
+]) (./chapters/2_chapter2.tex) (./misc/2_conclusion.tex) (./misc/3_reference.tex
+
+[16]
 
 LaTeX Warning: Empty bibliography on input line 10.
 
 ) (./misc/4_appendix.tex
 
-[14
+[17
 
 ]) (./misc/5_acknowledgements.tex
 
-[15
+[18
 
 ])
 
-[16
+[19
 
 ] (./main.aux)
  ***********
@@ -1524,12 +1531,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47390 strings out of 470405
- 985668 string characters out of 5490095
- 1945484 words of memory out of 5000000
- 74997 multiletter control sequences out of 15000+600000
- 639325 words of font info for 145 fonts, out of 8000000 for 9000
+ 47194 strings out of 470405
+ 981500 string characters out of 5490095
+ 1945389 words of memory out of 5000000
+ 74798 multiletter control sequences out of 15000+600000
+ 639349 words of font info for 148 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 118i,12n,125p,2814b,1411s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 118i,12n,125p,2814b,946s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (21 pages).
+Output written on main.pdf (25 pages).

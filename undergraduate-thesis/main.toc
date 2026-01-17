@@ -28,8 +28,4 @@
 \contentsline {section}{\numberline {6.\hspace {1bp}1}结论}{15}{section.6.1}%
 \contentsline {section}{\numberline {6.\hspace {1bp}2}未来工作}{16}{section.6.2}%
 \contentsline {chapter}{参考文献}{17}{chapter*.4}%
-\contentsline {chapter}{附\hskip 1em\relax 录}{18}{chapter*.5}%
-\contentsline {section}{\numberline {附录\hspace {1ex}A}\LaTeX 环境的安装}{18}{section.A}%
-\contentsline {section}{\numberline {附录\hspace {1ex}B}BIThesis 使用说明}{18}{section.B}%
-\contentsline {chapter}{致\hskip 1em\relax 谢}{19}{chapter*.6}%
 \contentsfinish 

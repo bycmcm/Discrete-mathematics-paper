@@ -1,10 +1,10 @@
-# https://mirror.ctan.org/support/latexmk/example_rcfiles/xelatex_latexmkrc
-$pdf_mode = 5;
-$dvi_mode = 0;
-$postscript_mode = 0;
+# 强制使用 XeLaTeX 模式
+$pdf_mode = 5; 
+$postscript_mode = $dvi_mode = 0;
 
-# 明确 *.bbl 由其它文件生成，可被删除。（latexmk 未能从 *.fls 检测）
+# 显式定义所有 pdf 编译动作都指向 xelatex
+$pdflatex = 'xelatex -synctex=1 -interaction=nonstopmode -file-line-error %O %S';
+$xelatex  = 'xelatex -synctex=1 -interaction=nonstopmode -file-line-error %O %S';
+
+# 参考文献设置
 $bibtex_use = 2;
-
-# 启用 SyncTeX
-$xelatex = "xelatex -synctex=1 %O %S";
